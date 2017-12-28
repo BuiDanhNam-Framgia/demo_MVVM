@@ -1,4 +1,4 @@
-package com.example.buidanhnam.demomvvm.view;
+package com.example.buidanhnam.demomvvm.screen.main;
 
 import com.example.buidanhnam.demomvvm.model.People;
 

@@ -18,4 +18,8 @@ public class Picture implements Serializable {
 
     @SerializedName("thumbnail")
     public String thumbnail;
+
+    public Picture(String thumbnail) {
+        this.thumbnail = thumbnail;
+    }
 }
