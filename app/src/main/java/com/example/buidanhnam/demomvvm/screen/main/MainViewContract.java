@@ -2,6 +2,7 @@ package com.example.buidanhnam.demomvvm.screen.main;
 
 import com.example.buidanhnam.demomvvm.model.People;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,10 +10,11 @@ import java.util.List;
  */
 
 public interface MainViewContract {
-    interface MainView {
-        public void loadData(List<People> peopleList) ;
-    }
+
     interface MainModelView{
         public void destroy();
+    }
+    interface MainView {
+        public void onLoaddata(ArrayList<People>  peoples);
     }
 }

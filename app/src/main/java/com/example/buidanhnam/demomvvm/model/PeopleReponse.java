@@ -12,6 +12,10 @@ public class PeopleReponse {
     @SerializedName("results")
     List<People> peopleList ;
 
+    public PeopleReponse(List<People> peopleList) {
+        this.peopleList = peopleList;
+    }
+
     public List<People> getPeopleList() {
         return peopleList;
     }
